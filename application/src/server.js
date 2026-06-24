@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Production CI/CD Pipeline Project",
+    message: "Production DevOps Platform",
     status: "running"
   });
 });
