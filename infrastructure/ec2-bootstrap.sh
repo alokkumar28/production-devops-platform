@@ -7,6 +7,9 @@ apt-get install -y docker.io nginx
 systemctl enable docker
 systemctl start docker
 
+# Add ubuntu user to docker group
+usermod -aG docker ubuntu
+
 systemctl enable nginx
 systemctl start nginx
 
