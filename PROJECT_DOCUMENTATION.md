@@ -99,6 +99,10 @@ The architecture separates the system into the following logical layers:
 
 The application is implemented using **Node.js** and **Express.js**.
 
+The application includes a static HTML and CSS frontend that provides a visual production status page for the Production DevOps Platform.
+
+The frontend is served by Express from the application's `public/` directory.
+
 The application exposes two primary endpoints.
 
 ## Root Endpoint

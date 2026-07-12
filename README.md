@@ -124,6 +124,8 @@ production-devops-platform/
 │       └── docker-build.yml
 │
 ├── application/
+│   ├── public/
+│   │   └── index.html
 │   ├── src/
 │   │   └── server.js
 │   ├── .dockerignore
@@ -131,6 +133,16 @@ production-devops-platform/
 │   ├── package.json
 │   └── package-lock.json
 │
+├── docs/
+│   └── images/
+│       ├── aws-ec2-instance-running.png
+│       ├── docker-hub-registry.png
+│       ├── github-actions-cicd-success.png
+│       ├── grafana-monitoring-dashboard.png
+│       ├── production-application-live.png
+│       ├── prometheus-targets-active.png
+│       └── terraform-apply-success.png
+│       
 ├── infrastructure/
 │   ├── ec2-bootstrap.sh
 │   ├── https-setup.sh
@@ -886,6 +898,6 @@ Potential future enhancements include:
 B.Tech in Electronics and Telecommunication Engineering
 International Institute of Information Technology Bhubaneswar
 
-GitHub: `alokkumariiit`
+GitHub: `alokkumar28`
 
-LinkedIn: `alokkumariiit`
+LinkedIn: `alokkumar28`
